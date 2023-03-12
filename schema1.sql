@@ -33,5 +33,3 @@ CREATE TABLE product_transaction (
     FOREIGN KEY(prod_id) REFERENCES product(id),
     FOREIGN KEY(trnas_id) REFERENCES transactions(id)
 )
-
-
